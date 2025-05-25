@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
+// Cadastro das Cartas
+// Este código serve para o cadastro de cartas de cidades.
+// Siga as instruções para criar cada parte do desafio.
 //Teste Jefferson
 
 #include <stdio.h>
