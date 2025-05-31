@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial iremos apenas cadastrar duas cartas e seus dados. 
-// Siga os comentários para adicionar cada parte do desafio.
+// Cadastro das Cartas
+// Vamos cadastrar duas cartas e seus dados. 
 // Teste Jefferson
 
 int main() {
 
-    // Definindo variáveis separadas para cada atributo da cidade 1.
+    // Variáveis separadas da cidade 1.
 
     char cidade1[50];
     int populacao1;
@@ -16,7 +15,7 @@ int main() {
     float pib1;
     int pontosTuristicos1;
 
-    // Definindo variáveis separadas para cada atributo da cidade 2.
+    // Variáveis separadas da cidade 2.
 
     char cidade2[50];
     int populacao2;
@@ -24,7 +23,7 @@ int main() {
     float pib2;
     int pontosTuristicos2;
 
-//Apresentação do jogo
+//O jogo
 
     printf("Super Trunfo - Países\n");
     printf("Crie as cartas de suas Cidades\ncom suas características.\n");
@@ -46,7 +45,7 @@ int main() {
     scanf("%i", &pontosTuristicos1);
     printf("\n");
 
-    //mostrar ao jogador as informações da cidade 1
+    //mostrar ao jogador os dados da cidade 1
 
     printf("CIDADE 1:\n");
     printf("A Cidade é: %s\n", cidade1);
@@ -73,7 +72,7 @@ int main() {
     scanf("%i", &pontosTuristicos2);
     printf("\n");
 
-    //mostrar ao jogador as informações da cidade 2
+    //mostrar ao jogador os dados da cidade 2
 
     printf("CIDADE 2:\n");
     printf("A Cidade é: %s\n", cidade2);
